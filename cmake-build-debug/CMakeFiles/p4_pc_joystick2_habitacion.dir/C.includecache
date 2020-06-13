@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.c
+dyn_app_motors.h
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.h
+timers.h
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/timers.h
+dyn_instr.h
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.h
+stdlib.h
+-
+
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.h
+stdbool.h
+-
+stdint.h
+-
+
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.h
+stdint.h
+-
+stdbool.h
+-
+
+/cygdrive/c/Users/kript/Desktop/PENE/dyn/timers.h
+
