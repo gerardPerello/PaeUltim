@@ -38,4 +38,4 @@ add_executable(p4_pc_joystick2_habitacion
         main.c
         main.h
         posicion.c
-        posicion.h)
+        posicion.h maze_solver/algorithms.c maze_solver/algorithms.h)

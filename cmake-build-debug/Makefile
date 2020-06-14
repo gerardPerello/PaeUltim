@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/kript/Desktop/PENE
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -420,6 +420,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/p4_pc_joystick2_habitacion.dir/build.make CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.s
 .PHONY : main.c.s
 
+maze_solver/algorithms.o: maze_solver/algorithms.c.o
+
+.PHONY : maze_solver/algorithms.o
+
+# target to build an object file
+maze_solver/algorithms.c.o:
+	$(MAKE) -f CMakeFiles/p4_pc_joystick2_habitacion.dir/build.make CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o
+.PHONY : maze_solver/algorithms.c.o
+
+maze_solver/algorithms.i: maze_solver/algorithms.c.i
+
+.PHONY : maze_solver/algorithms.i
+
+# target to preprocess a source file
+maze_solver/algorithms.c.i:
+	$(MAKE) -f CMakeFiles/p4_pc_joystick2_habitacion.dir/build.make CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.i
+.PHONY : maze_solver/algorithms.c.i
+
+maze_solver/algorithms.s: maze_solver/algorithms.c.s
+
+.PHONY : maze_solver/algorithms.s
+
+# target to generate assembly for a file
+maze_solver/algorithms.c.s:
+	$(MAKE) -f CMakeFiles/p4_pc_joystick2_habitacion.dir/build.make CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.s
+.PHONY : maze_solver/algorithms.c.s
+
 posicion.o: posicion.c.o
 
 .PHONY : posicion.o
@@ -453,9 +480,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... p4_pc_joystick2_habitacion"
-	@echo "... edit_cache"
 	@echo "... dyn/dyn_app_common.o"
 	@echo "... dyn/dyn_app_common.i"
 	@echo "... dyn/dyn_app_common.s"
@@ -489,6 +516,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maze_solver/algorithms.o"
+	@echo "... maze_solver/algorithms.i"
+	@echo "... maze_solver/algorithms.s"
 	@echo "... posicion.o"
 	@echo "... posicion.i"
 	@echo "... posicion.s"

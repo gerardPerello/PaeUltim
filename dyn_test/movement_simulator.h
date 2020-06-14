@@ -15,8 +15,8 @@
 #define SIM_STEP_MS_TIME 10
 #define MAX_SIM_STEPS 1000
 
-#define INITIAL_POS_X 50
-#define INITIAL_POS_Y 250
+#define INITIAL_POS_X 400
+#define INITIAL_POS_Y 1020
 #define INITIAL_POS_THETA M_PI_2
 
 

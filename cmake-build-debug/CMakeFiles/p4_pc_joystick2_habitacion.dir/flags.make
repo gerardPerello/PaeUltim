@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/cygdrive/c/Users/kript/Desktop/PENE/. -I/cygdrive/c/Users/kript/Desktop/PENE/dyn -I/cygdrive/c/Users/kript/Desktop/PENE/dyn_test -I/cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart -I/cygdrive/c/Users/kript/Desktop/PENE/joystick_emu 
+C_INCLUDES = -I/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/. -I/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn -I/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test -I/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart -I/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu 
 

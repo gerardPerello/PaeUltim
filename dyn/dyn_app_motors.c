@@ -55,12 +55,9 @@ int robotMoveContinuous(int16_t speed){
     //Si li passem el valor 0, aturem el robot.
     if(speed == 0){return robotStop();}
 
-    //Posem els mòduls en mode turnContinuous
-    int setupLeft = dyn_turnContinuous(ID_MOTOR_LEFT);
-    int setupRight = dyn_turnContinuous(ID_MOTOR_RIGHT);
 
     //Mirem el signe de la velocitat per a saber en quina direcció hem de girar les rodes
-    bool sign = (speed > 0);
+    bool sign = (speed < 0);
 
     //trobem el valor absolut de la velocitat.
     uint16_t absSpeed = abs(speed);
@@ -75,22 +72,14 @@ int robotMoveContinuous(int16_t speed){
     //int speedLeft = dyn_setTurnSpeed(ID_MOTOR_LEFT, absSpeed, sign);
     //si anem cap endavant (sign és true), volem que la roda esquerra giri en sentit horari, i, si és false, antihorari
     //int speedRight = dyn_setTurnSpeed(ID_MOTOR_RIGHT, absSpeed, sign);
-    for(int j=0; j<absSpeed/2; j++){
-        speedLeft = dyn_setTurnSpeed(ID_MOTOR_LEFT, j, sign);
-        speedRight = dyn_setTurnSpeed(ID_MOTOR_RIGHT, j, sign);
-    }
-    for(int j=absSpeed/2; j<absSpeed; j++){
-
-        speedRight = dyn_setTurnSpeed(ID_MOTOR_RIGHT, j, sign);
-        speedLeft = dyn_setTurnSpeed(ID_MOTOR_LEFT, j, sign);
-    }
-
+    speedLeft = dyn_setTurnSpeed(ID_MOTOR_LEFT, absSpeed, sign);
+    speedRight = dyn_setTurnSpeed(ID_MOTOR_RIGHT, absSpeed, sign);
 
     //Creem un array amb els returns de les funcions bàsiques.
-    int returns[4] = {setupLeft, setupRight, speedLeft, speedRight};
+    int returns[2] = {speedLeft, speedRight};
 
     //Si alguna ha donat algun error (return major que 0), el retornem.
-    for(int i = 0; i < 4; i++){
+    for(int i = 0; i < 2; i++){
         if(returns[i] > 0){return returns[i];}
     }
 
@@ -103,12 +92,8 @@ int robotSpinContinuous(int16_t speed){
     //Si li passem el valor 0, aturem el robot.
     if(speed == 0){return robotStop();}
 
-    //Posem els mòduls en mode turnContinuous
-    int setupLeft = dyn_turnContinuous(ID_MOTOR_LEFT);
-    int setupRight = dyn_turnContinuous(ID_MOTOR_RIGHT);
-
     //Mirem el signe de la velocitat per a saber en quina direcció hem de girar les rodes
-    bool sign = (speed > 0);
+    bool sign = (speed < 0);
 
     //trobem el valor absolut de la velocitat.
     uint16_t absSpeed = abs(speed);
@@ -123,10 +108,10 @@ int robotSpinContinuous(int16_t speed){
     int speedRight = dyn_setTurnSpeed(ID_MOTOR_RIGHT, absSpeed, sign);
 
     //Creem un array amb els returns de les funcions bàsiques.
-    int returns[4] = {setupLeft, setupRight, speedLeft, speedRight};
+    int returns[2] = {speedLeft, speedRight};
 
     //Si alguna ha donat algun error (return major que 0), el retornem.
-    for(int i = 0; i < 4; i++){
+    for(int i = 0; i < 2; i++){
         if(returns[i] > 0){return returns[i];}
     }
 
@@ -138,12 +123,8 @@ int moveSideContinuous(int16_t speed, int side) {
     //Si li passem el valor 0, aturem el robot.
     if (speed == 0) { return robotStop(); }
 
-    //Posem els mòduls en mode turnContinuous
-    int setupLeft = dyn_turnContinuous(ID_MOTOR_LEFT);
-    int setupRight = dyn_turnContinuous(ID_MOTOR_RIGHT);
-
     //Mirem el signe de la velocitat per a saber en quina direcció hem de girar les rodes
-    bool sign = (speed > 0);
+    bool sign = (speed < 0);
 
     //trobem el valor absolut de la velocitat.
     uint16_t absSpeed = abs(speed);
@@ -174,10 +155,10 @@ int moveSideContinuous(int16_t speed, int side) {
 
 
     //Creem un array amb els returns de les funcions bàsiques.
-    int returns[4] = {setupLeft, setupRight, speedLeft, speedRight};
+    int returns[2] = {speedLeft, speedRight};
 
     //Si alguna ha donat algun error (return major que 0), el retornem.
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 2; i++) {
         if (returns[i] > 0) { return returns[i]; }
     }
 
@@ -204,6 +185,18 @@ int dyn_readTurnSpeed(uint8_t id, uint16_t *speed, bool *direction){
     //si hi ha hagut algun error al llegir, retornem 1. Si no, retornem 0.
     return (read1 > 0) | (read2 > 0);
 }
+
+int setup(){
+    int setupLeft = dyn_turnContinuous(ID_MOTOR_LEFT);
+    int setupRight = dyn_turnContinuous(ID_MOTOR_RIGHT);
+
+    if(setupLeft > 0){
+        return setupLeft;
+    }
+    return setupRight;
+
+}
+
 
 int dyn_readTurnContinuous(uint8_t id, bool *continuous){
 
@@ -235,7 +228,5 @@ int dyn_readTurnContinuous(uint8_t id, bool *continuous){
     //Si tot l'anterior no ha retornat false ni hi ha hagut cap error de lectura, estem en mode endless turn:
     *continuous = true;
     return 0;
-
-
 
 }

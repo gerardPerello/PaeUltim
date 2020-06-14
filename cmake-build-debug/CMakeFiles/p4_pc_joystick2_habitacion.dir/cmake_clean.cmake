@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o"
   "CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o"
   "CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o"
+  "CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o"
   "CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o"
   "libp4_pc_joystick2_habitacion.dll.a"
   "p4_pc_joystick2_habitacion.exe"

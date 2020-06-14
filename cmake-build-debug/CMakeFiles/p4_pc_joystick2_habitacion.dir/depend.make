@@ -10,6 +10,8 @@ CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o: ../dyn/dyn_ins
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o: ../dyn/timers.h
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o: ../dyn/dyn_app_sensor.c
+CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o: ../dyn/dyn_app_sensor.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o: ../dyn/dyn_instr.h
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o: ../dyn/dyn_frames.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o: ../dyn/dyn_frames.c
@@ -54,12 +56,20 @@ CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o: ../joystick
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../dyn_test/movement_simulator.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../posicion.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../dyn/dyn_app_common.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../dyn/dyn_app_motors.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../dyn_test/b_queue.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../dyn_test/dyn_emu.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../habitacion_001.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../joystick_emu/joystick.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../main.c
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../main.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../maze_solver/algorithms.h
+
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../dyn/dyn_app_motors.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../dyn/dyn_app_sensor.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../dyn/dyn_instr.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../maze_solver/algorithms.c
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../maze_solver/algorithms.h
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o: ../dyn_test/movement_simulator.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o: ../main.h

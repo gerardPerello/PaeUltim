@@ -9,10 +9,6 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-//Distància entre les rodes serà 2*L, la distància de les rodes al centre del motor serà L.
-static const float L = 1.0;
-//El radi de les rodes serà L.
-static const float r = 1.0;
 //El mòdul de l'esquerra tindrà la id 1.
 static const uint8_t ID_MOTOR_LEFT = 1;
 //El mòdul de la dreta tindrà la id 2.
@@ -68,7 +64,10 @@ int robotSpinContinuous(int16_t speed);
 //és positiva i cap endarrera si la velocitat és negativa.
 int moveSideContinuous(int16_t speed, int side);
 
-
+/**
+ * Aquesta funció inicialitza el robot per a que estigui en mode endless turn
+ */
+int setup();
 
 
 /*

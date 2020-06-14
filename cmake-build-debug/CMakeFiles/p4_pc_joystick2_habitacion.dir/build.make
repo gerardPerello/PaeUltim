@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/kript/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Nazar/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/kript/Desktop/PENE
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/p4_pc_joystick2_habitacion.dir/depend.make
@@ -59,159 +59,172 @@ include CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o: ../dyn/dyn_app_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_common.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_common.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_common.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_common.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_common.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o: ../dyn/dyn_app_sensor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_sensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_sensor.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_sensor.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_sensor.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_sensor.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_sensor.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o: ../dyn/dyn_app_motors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o: ../dyn/dyn_frames.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o: ../dyn/dyn_instr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o: ../dyn_test/b_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o: ../dyn_test/dyn_emu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o: ../dyn_test/movement_simulator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o: ../hal_dyn_uart/hal_dyn_uart_emu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/hal_dyn_uart_emu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/hal_dyn_uart_emu.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/hal_dyn_uart_emu.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/hal_dyn_uart_emu.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/hal_dyn_uart_emu.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/hal_dyn_uart_emu.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o: ../joystick_emu/joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/main.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/main.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.s
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o: ../posicion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o   -c /cygdrive/c/Users/kript/Desktop/PENE/posicion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/posicion.c
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kript/Desktop/PENE/posicion.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/posicion.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.i
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kript/Desktop/PENE/posicion.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/posicion.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.s
+
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: CMakeFiles/p4_pc_joystick2_habitacion.dir/flags.make
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o: ../maze_solver/algorithms.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o   -c /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.c
+
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.c > CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.i
+
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.c -o CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.s
 
 # Object files for target p4_pc_joystick2_habitacion
 p4_pc_joystick2_habitacion_OBJECTS = \
@@ -226,7 +239,8 @@ p4_pc_joystick2_habitacion_OBJECTS = \
 "CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o" \
 "CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o" \
 "CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o" \
-"CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o"
+"CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o" \
+"CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o"
 
 # External object files for target p4_pc_joystick2_habitacion
 p4_pc_joystick2_habitacion_EXTERNAL_OBJECTS =
@@ -243,9 +257,10 @@ p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dy
 p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o
 p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o
 p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o
+p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o
 p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/build.make
 p4_pc_joystick2_habitacion.exe: CMakeFiles/p4_pc_joystick2_habitacion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable p4_pc_joystick2_habitacion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable p4_pc_joystick2_habitacion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p4_pc_joystick2_habitacion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,6 +273,6 @@ CMakeFiles/p4_pc_joystick2_habitacion.dir/clean:
 .PHONY : CMakeFiles/p4_pc_joystick2_habitacion.dir/clean
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/depend:
-	cd /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/kript/Desktop/PENE /cygdrive/c/Users/kript/Desktop/PENE /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug /cygdrive/c/Users/kript/Desktop/PENE/cmake-build-debug/CMakeFiles/p4_pc_joystick2_habitacion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/cmake-build-debug/CMakeFiles/p4_pc_joystick2_habitacion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/p4_pc_joystick2_habitacion.dir/depend
 

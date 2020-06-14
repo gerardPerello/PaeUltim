@@ -67,9 +67,9 @@ bool elapsed_time(clock_t t1, uint32_t milliseconds, int32_t *true_elapsed_time)
  * @param motor_id ID of the Dynamixel module
  */
 void _speed_dyn_2_speed_int(int16_t *v, uint8_t motor_id) {
-    *v = dyn_mem[motor_id][DYN_REG__GOAL_SPEED_L];
-    *v |= ((dyn_mem[motor_id][DYN_REG__GOAL_SPEED_H] & 0x03) << 8);
-    if (dyn_mem[motor_id][DYN_REG__GOAL_SPEED_H] & 0x04) {
+    *v = dyn_mem[motor_id][DYN_REG__MOVING_SPEED_L];
+    *v |= ((dyn_mem[motor_id][DYN_REG__MOVING_SPEED_H] & 0x03) << 8);
+    if (dyn_mem[motor_id][DYN_REG__MOVING_SPEED_H] & 0x04) {
         *v *= -1;
     }
 }
@@ -139,9 +139,9 @@ void calculate_new_position() {
  *
  */
 void update_sensor_data() {
-    distance(&robot_pos_str, &dyn_mem[SENSOR_MEM_ROW][DYN_REG__IR_LEFT],
-             &dyn_mem[SENSOR_MEM_ROW][DYN_REG__IR_CENTER],
-             &dyn_mem[SENSOR_MEM_ROW][DYN_REG__IR_RIGHT]);
+    distance(&robot_pos_str, &dyn_mem[SENSOR_MEM_ROW][DYN_REG__DISTANCE_LEFT],
+             &dyn_mem[SENSOR_MEM_ROW][DYN_REG__DISTANCE_CENTER],
+             &dyn_mem[SENSOR_MEM_ROW][DYN_REG__DISTANCE_RIGHT]);
 }
 
 

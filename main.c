@@ -10,6 +10,8 @@
 #include "dyn_test/b_queue.h"
 #include "joystick_emu/joystick.h"
 #include "habitacion_001.h"
+#include "maze_solver/algorithms.h"
+#include "dyn/dyn_app_motors.h"
 
 uint8_t estado = Ninguno, estado_anterior = Ninguno, finalizar = 0;
 uint32_t indice;
@@ -30,17 +32,6 @@ int main(void) {
     pthread_create(&tid, NULL, dyn_emu, (void *) datos_habitacion);
     pthread_create(&jid, NULL, joystick_emu, (void *) &jid);
 
-    //Testing some high level function
-    printf("\nSetting LED to 0 \n");
-    dyn_led_control(1, 0);
-    printf("\nGetting LED value \n");
-    dyn_led_read(1, &tmp);
-    assert(tmp == 0);
-    printf("\nSetting LED to 1 \n");
-    dyn_led_control(1, 1);
-    printf("\nGetting LED value \n");
-    dyn_led_read(1, &tmp);
-    assert(tmp == 1);
 
     printf("\n************************\n");
     printf("Test passed successfully\n");
@@ -50,6 +41,9 @@ int main(void) {
 
     printf("Pulsar 'q' para terminar, qualquier tecla para seguir\n");
     fflush(stdout);//	return 0;
+
+    //setup();
+    findWall();
 
     while (estado != Quit) {
         if (simulator_finished) {

@@ -3,66 +3,76 @@
 
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_common.c.o
  ../dyn/dyn_instr.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_common.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_common.c
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_motors.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/timers.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/timers.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_app_sensor.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_sensor.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_sensor.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_sensor.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_frames.c.o
  ../dyn/dyn_frames.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.h
- /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/fake_msp.h
- /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/hal_dyn_uart_emu.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/fake_msp.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/hal_dyn_uart_emu.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn/dyn_instr.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_frames.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_instr.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_frames.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_instr.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/b_queue.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/dyn_emu.c.o
  ../dyn/dyn_instr.h
  ../hal_dyn_uart/fake_msp.h
  ../main.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/dyn_test/movement_simulator.c.o
  ../dyn/dyn_instr.h
  ../dyn_test/movement_simulator.h
  ../main.h
  ../posicion.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.c
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/hal_dyn_uart/hal_dyn_uart_emu.c.o
  ../dyn/dyn_frames.h
  ../dyn_test/b_queue.h
  ../main.h
- /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/fake_msp.h
- /cygdrive/c/Users/kript/Desktop/PENE/hal_dyn_uart/hal_dyn_uart_emu.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/fake_msp.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/hal_dyn_uart/hal_dyn_uart_emu.c
 CMakeFiles/p4_pc_joystick2_habitacion.dir/joystick_emu/joystick.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_motors.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.h
- /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.c
- /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/main.c.o
  ../dyn_test/movement_simulator.h
  ../posicion.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn/dyn_app_common.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/b_queue.h
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/dyn_emu.h
- /cygdrive/c/Users/kript/Desktop/PENE/habitacion_001.h
- /cygdrive/c/Users/kript/Desktop/PENE/joystick_emu/joystick.h
- /cygdrive/c/Users/kript/Desktop/PENE/main.c
- /cygdrive/c/Users/kript/Desktop/PENE/main.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_common.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn/dyn_app_motors.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/b_queue.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/dyn_emu.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/habitacion_001.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/joystick_emu/joystick.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.h
+CMakeFiles/p4_pc_joystick2_habitacion.dir/maze_solver/algorithms.c.o
+ ../dyn/dyn_app_motors.h
+ ../dyn/dyn_app_sensor.h
+ ../dyn/dyn_instr.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/maze_solver/algorithms.h
 CMakeFiles/p4_pc_joystick2_habitacion.dir/posicion.c.o
- /cygdrive/c/Users/kript/Desktop/PENE/dyn_test/movement_simulator.h
- /cygdrive/c/Users/kript/Desktop/PENE/main.h
- /cygdrive/c/Users/kript/Desktop/PENE/posicion.c
- /cygdrive/c/Users/kript/Desktop/PENE/posicion.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/dyn_test/movement_simulator.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/main.h
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/posicion.c
+ /cygdrive/c/Users/Nazar/CLionProjects/PaeUltim/posicion.h
