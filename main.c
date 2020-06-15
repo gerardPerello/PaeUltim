@@ -42,8 +42,8 @@ int main(void) {
     printf("Pulsar 'q' para terminar, qualquier tecla para seguir\n");
     fflush(stdout);//	return 0;
 
-    //setup();
-    findWall();
+    setup();
+    followWall();
 
     while (estado != Quit) {
         if (simulator_finished) {

@@ -19,11 +19,11 @@ volatile uint16_t UCA2IFG = UCTXIFG;
 volatile uint16_t UCA2STATW = 0;
 
 void Sentit_Dades_Rx_emu(void) {
-    printf("Changed direction to RX\n");
+    //printf("Changed direction to RX\n");
 }
 
 void Sentit_Dades_Tx_emu(void) {
-    printf("Changed direction to TX\n");
+    //printf("Changed direction to TX\n");
 }
 
 void TxUAC2_emu(byte bTxdData) {
@@ -33,7 +33,7 @@ void TxUAC2_emu(byte bTxdData) {
     while (ret != QUEUE_OK) {
         ret = queue_push(bTxdData, &q_tx);
     }
-    usleep(20);
+    usleep(20);//TODO
 }
 
 void Activa_Timer_TimeOut_emu() {
@@ -50,5 +50,5 @@ void rx_uart_byte_emu(struct RxReturn *respuesta) {
         ret = queue_pop(&(respuesta->StatusPacket[respuesta->idx]), &q_rx);
     }
     respuesta->idx++;
-    usleep(20);
+    usleep(20);//TODO
 }
