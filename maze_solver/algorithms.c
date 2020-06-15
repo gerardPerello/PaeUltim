@@ -95,20 +95,20 @@ void steerLeft(int increment, uint16_t *speedLeft, uint16_t *speedRight, uint8_t
     if(increment == 0){
 
         if(*speedLeft > basicSpeed && *speedRight > basicSpeed){
-            *speedLeft -= 1;
-            *speedRight -= 1;
+            *speedLeft -= 10;
+            *speedRight -= 10;
 
-            dyn_setTurnSpeed(idLeft, *speedLeft, 1);
-            dyn_setTurnSpeed(idRight, *speedRight, 1);
+            dyn_setTurnSpeed(idLeft, *speedLeft, 0);
+            dyn_setTurnSpeed(idRight, *speedRight, 0);
             return;
         }
 
         if(*speedLeft < basicSpeed && *speedRight < basicSpeed){
-            *speedLeft += 1;
-            *speedRight += 1;
+            *speedLeft += 5;
+            *speedRight += 5;
 
-            dyn_setTurnSpeed(idLeft, *speedLeft, 1);
-            dyn_setTurnSpeed(idRight, *speedRight, 1);
+            dyn_setTurnSpeed(idLeft, *speedLeft, 0);
+            dyn_setTurnSpeed(idRight, *speedRight, 0);
             return;
         }
 
@@ -119,7 +119,7 @@ void steerLeft(int increment, uint16_t *speedLeft, uint16_t *speedRight, uint8_t
         if(basicSpeed  >= increment + *speedRight){
 
             *speedRight += increment;
-            dyn_setTurnSpeed(idRight, *speedRight, 1);
+            dyn_setTurnSpeed(idRight, *speedRight, 0);
             return;
 
         }
@@ -127,7 +127,7 @@ void steerLeft(int increment, uint16_t *speedLeft, uint16_t *speedRight, uint8_t
         if(*speedLeft >= increment){
 
             *speedLeft -= increment;
-            dyn_setTurnSpeed(idLeft, *speedLeft, 1);
+            dyn_setTurnSpeed(idLeft, *speedLeft, 0);
             return;
 
         }
@@ -135,7 +135,7 @@ void steerLeft(int increment, uint16_t *speedLeft, uint16_t *speedRight, uint8_t
         if(*speedRight + increment <= maxSpeed){
 
             *speedRight += increment;
-            dyn_setTurnSpeed(idRight, *speedRight, 1);
+            dyn_setTurnSpeed(idRight, *speedRight, 0);
             return;
         }
     }
