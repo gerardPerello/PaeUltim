@@ -20,4 +20,5 @@ static const int security_distance = 10;
 //retornarà 0, 1 o 2, depenent de si la paret trobada es troba davant, a l'esquerra o a la dreta del robot, respectivament.
 int findWall();
 void followWall();
+void followWall2();
 

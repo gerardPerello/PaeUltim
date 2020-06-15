@@ -141,9 +141,6 @@ void steerLeft(int increment, uint16_t *speedLeft, uint16_t *speedRight, uint8_t
     }
 
 
-
-
-
 }
 
 void followWall(){
@@ -156,10 +153,76 @@ void followWall(){
 
     while(true){
 
-        steerLeft(0, &motorLeft, &motorRight, ID_MOTOR_LEFT, ID_MOTOR_RIGHT);
+        dyn_readDistanceCenter(ID_SENSOR, &sensorFront);
+        dyn_readDistanceLeft(ID_SENSOR, &sensorLeft);
+
+        if(sensorFront == 255 && sensorLeft == 255){
+            findWall();
+        }
+
+        else if(sensorLeft == 255){
+            steerLeft(10, &motorLeft, &motorRight, ID_MOTOR_LEFT, ID_MOTOR_RIGHT);
+        }
+
+        else if(sensorFront == 255){
+            steerLeft(2* (((int) sensorLeft) - security_distance), &motorLeft, &motorRight, ID_MOTOR_LEFT, ID_MOTOR_RIGHT);
+        }
+
+        else{
+
+            steerLeft(((int)sensorLeft)/sensorFront, &motorLeft, &motorRight, ID_MOTOR_LEFT, ID_MOTOR_RIGHT );
+        }
 
 
     }
+
+
+}
+
+void followWall2(){
+
+    uint8_t sensorLeft = 0;
+    uint8_t sensorFront = 0;
+    uint16_t speed =0;
+
+    while(true){
+
+        dyn_readDistanceCenter(ID_SENSOR, &sensorFront);
+        dyn_readDistanceLeft(ID_SENSOR, &sensorLeft);
+
+        if(speed < 100 && sensorFront > 100){
+
+            speed+= 10;
+            dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
+            dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+
+        }else{
+
+            if(sensorFront > 30){
+
+                if(sensorLeft > 15){
+
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 5, 0);
+
+                }else if (sensorLeft < 5){
+
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 5, 0);
+
+                }else{
+
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+                }
+
+            }else{
+
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 15, 0);
+
+            }
+
+        }
+    }
+
+
 
 
 }
