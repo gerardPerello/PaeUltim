@@ -21,4 +21,5 @@ static const int security_distance = 10;
 int findWall();
 void followWall();
 void followWall2();
+void followWall3();
 

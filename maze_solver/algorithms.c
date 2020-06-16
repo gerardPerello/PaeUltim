@@ -183,7 +183,8 @@ void followWall2(){
 
     uint8_t sensorLeft = 0;
     uint8_t sensorFront = 0;
-    uint16_t speed =0;
+    uint16_t speed =0 ;
+    bool order = false;
 
     while(true){
 
@@ -193,8 +194,20 @@ void followWall2(){
         if(speed < 100 && sensorFront > 100){
 
             speed+= 10;
-            dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
-            dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+
+
+
+            if(order){
+                dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+            }else{
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+                dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
+
+            }
+            order = !order;
+
+
 
         }else{
 
@@ -222,7 +235,73 @@ void followWall2(){
         }
     }
 
+}
 
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "EndlessLoop"
+void followWall3(){
+
+    uint8_t sensorLeft = 0;
+    uint8_t sensorFront = 0;
+    uint16_t speed =0 ;
+    bool order = false;
+
+    int integral = 0;
+
+    while(true){
+
+        dyn_readDistanceCenter(ID_SENSOR, &sensorFront);
+        dyn_readDistanceLeft(ID_SENSOR, &sensorLeft);
+
+
+        if(speed < 100 && sensorFront > 100){
+
+            speed+= 10;
+            integral = 0;
+
+
+
+            if(order){
+                dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+            }else{
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+                dyn_setTurnSpeed(ID_MOTOR_LEFT, speed, 0);
+
+            }
+            order = !order;
+
+
+
+        }else{
+
+            if(sensorFront > 30){
+
+                int error = sensorLeft - 10;
+                integral += error;
+
+                if(error > 5){
+                    error = 5;
+                }
+
+                if(error > -5){
+                    error = -5;
+                }
+
+
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + error, 0);
+
+
+            }else{
+
+                integral = 0;
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 15, 0);
+
+            }
+
+        }
+    }
 
 }
+#pragma clang diagnostic pop
