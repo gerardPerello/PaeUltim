@@ -191,7 +191,7 @@ void followWall2(){
         dyn_readDistanceCenter(ID_SENSOR, &sensorFront);
         dyn_readDistanceLeft(ID_SENSOR, &sensorLeft);
 
-        if(speed < 100 && sensorFront > 100){
+        if(speed < 200 && sensorFront > 100){
 
             speed+= 10;
 
@@ -213,18 +213,20 @@ void followWall2(){
 
             if(sensorFront > 30){
 
-                if(sensorLeft > 15){
 
-                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 5, 0);
 
-                }else if (sensorLeft < 5){
-
-                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 5, 0);
-
-                }else{
-
+                if (sensorFront > 14){
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 4, 0);
+                }else if(sensorFront >12){
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 2, 0);
+                }else if(sensorFront >8){
                     dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
+                }else if(sensorFront >6){
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 2, 0);
+                }else{
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 4, 0);
                 }
+
 
             }else{
 
