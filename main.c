@@ -43,7 +43,7 @@ int main(void) {
     fflush(stdout);//	return 0;
 
     setup();
-    followWall2();
+    followWall3();
 
     while (estado != Quit) {
         if (simulator_finished) {

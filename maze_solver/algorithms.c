@@ -179,7 +179,7 @@ void followWall(){
 
 }
 
-void followWall2(){
+void followWall4(){
 
     uint8_t sensorLeft = 0;
     uint8_t sensorFront = 0;
@@ -215,18 +215,18 @@ void followWall2(){
 
 
 
+
                 if (sensorFront > 14){
-                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 4, 0);
-                }else if(sensorFront >12){
                     dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 2, 0);
+                }else if(sensorFront >12){
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + 1, 0);
                 }else if(sensorFront >8){
                     dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed, 0);
                 }else if(sensorFront >6){
-                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 2, 0);
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 1, 0);
                 }else{
-                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 4, 0);
+                    dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed - 2, 0);
                 }
-
 
             }else{
 
@@ -257,7 +257,7 @@ void followWall3(){
         dyn_readDistanceLeft(ID_SENSOR, &sensorLeft);
 
 
-        if(speed < 100 && sensorFront > 100){
+        if(speed < 100 && sensorFront > 30 && 5 < sensorLeft < 15){
 
             speed+= 10;
             integral = 0;
@@ -283,16 +283,13 @@ void followWall3(){
                 int error = sensorLeft - 10;
                 integral += error;
 
-                if(error > 5){
-                    error = 5;
+                printf("Integral: %i \n", integral);
+
+                if(error > 10){
+                    error = 10;
                 }
 
-                if(error > -5){
-                    error = -5;
-                }
-
-
-                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + error, 0);
+                dyn_setTurnSpeed(ID_MOTOR_RIGHT, speed + error/2 + integral / 100, 0);
 
 
             }else{
